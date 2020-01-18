@@ -6,7 +6,7 @@
 
 Name:           python-tempita
 Version:        0.5.1
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        A very small text templating language
 
 Group:          Development/Languages
@@ -100,6 +100,9 @@ nosetests
 %endif
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.5.1-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.5.1-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
